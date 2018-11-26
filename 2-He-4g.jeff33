@@ -1,63 +1,73 @@
-JEFF-3.3 Incident Neutron File                                       1 0  0    0
- 2.004000+3 3.968200+0          0          0          2          1 228 1451    1
+JEFF-3.2 Release - Neutron File March 2014                             0  0    0
+ 2.004000+3 3.968200+0          0          0          2          2 228 1451    1
  0.000000+0 0.000000+0          0          0          0          6 228 1451    2
- 1.000000+0 2.000000+7          3          0         10          3 228 1451    3
- 0.000000+0 0.000000+0          0          0         50          5 228 1451    4
+ 1.000000+0 2.000000+7          1          0         10         32 228 1451    3
+ 0.000000+0 0.000000+0          0          0         60          5 228 1451    4
   2-He-  4 JAERI      EVAL-FEB87 K.SHIBATA                         228 1451    5
-                      DIST-DEC17 REV3-DEC17            20171231    228 1451    6
----JEFF-3.3           MATERIAL  228                                228 1451    7
+                      DIST-JAN09                     20090105      228 1451    6
+----JEFF32            MATERIAL  228                                228 1451    7
 -----INCIDENT NEUTRON DATA                                         228 1451    8
 ------ENDF-6 FORMAT                                                228 1451    9
-                                                                   228 1451   10
-   ===========================================================     228 1451   11
-              The data were taken from JENDL-3.3.                  228 1451   12
-   ===========================================================     228 1451   13
-                                                                   228 1451   14
-                                                                   228 1451   15
-   ===========================================================     228 1451   16
-   JENDL-3.2 data were automatically transformed to JENDL-3.3.     228 1451   17
-    Interpolation of spectra: 22 (unit base interpolation)         228 1451   18
-    (3,251) deleted, T-matrix of (4,2) deleted, and others.        228 1451   19
-   ===========================================================     228 1451   20
-                                                                   228 1451   21
-HISTORY                                                            228 1451   22
-87-02  NEWLY EVALUATED BY K.SHIBATA                                228 1451   23
-                                                                   228 1451   24
-MF=1         GENERAL INFORMATION                                   228 1451   25
-  MT=451   DESCRIPTIVE DATA                                        228 1451   26
-                                                                   228 1451   27
-MF=2         RESONANCE PARAMETERS                                  228 1451   28
-  MT=151   SCATTERING RADIUS ONLY                                  228 1451   29
-                                                                   228 1451   30
-MF=3         CROSS SECTIONS                                        228 1451   31
-        CALCULATED 2200M/S CROSS SECTIONS                          228 1451   32
-             TOTAL   0.7593 BARN                                   228 1451   33
-             ELASTIC 0.7593 BARN                                   228 1451   34
-                                                                   228 1451   35
-  MT=1,2   SIG-T, SIG-EL                                           228 1451   36
-        EXPERIMENTAL DATA /1/-/6/ WERE ANALYZED USING              228 1451   37
-        THE R-MATRIX THEORY.                                       228 1451   38
-  MT=251   MU-BAR                                                  228 1451   39
-        CALCULATED FROM THE DATA IN FILE-4                         228 1451   40
-                                                                   228 1451   41
-MF=4         ANGULAR DISTRIBUTIONS OF SECONDARY NEUTRONS           228 1451   42
-  MT=2     ELASTIC                                                 228 1451   43
-        R-MATRIX CALCULATIONS                                      228 1451   44
+*****************************  JEFF-3.2    *********************** 228 1451   10
+**                                                              ** 228 1451   11
+**         Original data taken from:  JEFF-3.1.1                ** 228 1451   12
+**                                                              ** 228 1451   13
+****************************************************************** 228 1451   14
+***************************  JEFF-3.1.1  ************************* 228 1451   15
+**                                                              ** 228 1451   16
+**         Original data taken from:  JEFF-3.1                  ** 228 1451   17
+**                                                              ** 228 1451   18
+****************************************************************** 228 1451   19
+*****************************  JEFF-3.1  ************************* 228 1451   20
+**                                                              ** 228 1451   21
+**         Original data taken from:  JENDL-3.3                 ** 228 1451   22
+**                                                              ** 228 1451   23
+****************************************************************** 228 1451   24
+                                                                   228 1451   25
+   ===========================================================     228 1451   26
+   JENDL-3.2 data were automatically transformed to JENDL-3.3.     228 1451   27
+    Interpolation of spectra: 22 (unit base interpolation)         228 1451   28
+    (3,251) deleted, T-matrix of (4,2) deleted, and others.        228 1451   29
+   ===========================================================     228 1451   30
+                                                                   228 1451   31
+HISTORY                                                            228 1451   32
+87-02  NEWLY EVALUATED BY K.SHIBATA                                228 1451   33
+                                                                   228 1451   34
+MF=1         GENERAL INFORMATION                                   228 1451   35
+  MT=451   DESCRIPTIVE DATA                                        228 1451   36
+                                                                   228 1451   37
+MF=2         RESONANCE PARAMETERS                                  228 1451   38
+  MT=151   SCATTERING RADIUS ONLY                                  228 1451   39
+                                                                   228 1451   40
+MF=3         CROSS SECTIONS                                        228 1451   41
+        CALCULATED 2200M/S CROSS SECTIONS                          228 1451   42
+             TOTAL   0.7593 BARN                                   228 1451   43
+             ELASTIC 0.7593 BARN                                   228 1451   44
                                                                    228 1451   45
-                                                                   228 1451   46
-REFERENCES                                                         228 1451   47
-1) GOULDING, C.A. ET AL.: NUCL. PHYS. A215, 253 (1973).            228 1451   48
-2) HAESNER, B. ET AL.: PHYS. REV. C28, 995 (1983).                 228 1451   49
-3) BATTAT, M.E. ET AL.: NUCL. PHYS. 12, 291 (1959).                228 1451   50
-4) AUSTIN, S.M. ET AL.: PHYS. REV. 126, 1532 (1962).               228 1451   51
-5) LAMAZE, G.P. ET AL.: TAKEN FROM EXFOR (1979).                   228 1451   52
-6) MORGAN, G.L. AND WALTER, R.L.: PHYS. REV. 168, 1114 (1968).     228 1451   53
-                                                                   228 1451   54
-                                1        451         59          1 228 1451   55
-                                2        151          4          0 228 1451   56
-                                3          1        136          0 228 1451   57
-                                3          2        136          0 228 1451   58
-                                4          2        800          0 228 1451   59
+  MT=1,2   SIG-T, SIG-EL                                           228 1451   46
+        EXPERIMENTAL DATA /1/-/6/ WERE ANALYZED USING              228 1451   47
+        THE R-MATRIX THEORY.                                       228 1451   48
+  MT=251   MU-BAR                                                  228 1451   49
+        CALCULATED FROM THE DATA IN FILE-4                         228 1451   50
+                                                                   228 1451   51
+MF=4         ANGULAR DISTRIBUTIONS OF SECONDARY NEUTRONS           228 1451   52
+  MT=2     ELASTIC                                                 228 1451   53
+        R-MATRIX CALCULATIONS                                      228 1451   54
+                                                                   228 1451   55
+                                                                   228 1451   56
+REFERENCES                                                         228 1451   57
+1) GOULDING, C.A. ET AL.: NUCL. PHYS. A215, 253 (1973).            228 1451   58
+2) HAESNER, B. ET AL.: PHYS. REV. C28, 995 (1983).                 228 1451   59
+3) BATTAT, M.E. ET AL.: NUCL. PHYS. 12, 291 (1959).                228 1451   60
+4) AUSTIN, S.M. ET AL.: PHYS. REV. 126, 1532 (1962).               228 1451   61
+5) LAMAZE, G.P. ET AL.: TAKEN FROM EXFOR (1979).                   228 1451   62
+6) MORGAN, G.L. AND WALTER, R.L.: PHYS. REV. 168, 1114 (1968).     228 1451   63
+                                                                   228 1451   64
+                                1        451         69          1 228 1451   65
+                                2        151          4          1 228 1451   66
+                                3          1        136          1 228 1451   67
+                                3          2        136          1 228 1451   68
+                                4          2        800          2 228 1451   69
                                                                    228 1  099999
                                                                    228 0  0    0
  2.004000+3 3.968200+0          0          0          1          0 228 2151    1
